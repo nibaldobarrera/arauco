@@ -13,8 +13,9 @@ reserved.</copyright>
     <authorEmail>example@packtpub.com</authorEmail>
     <authorUrl>http://www.kazeta.cl</authorUrl>
     <version>1.1.0</version>
-    <description>Este plugin reemplazará un número telefónico con un enlace click to 
-call. Requiere Joomla! 3.0 o superior. No olvide publicar este plugin!
+    <description>Este plugin reemplazará un número telefónico con un enlace del
+        tipo "click to call". Requiere Joomla! 3.0 o superior. No olvide publicar
+        este plugin!
         </description>
     <files>
         <filename plugin="clicktocall">clicktocall.php</filename>
