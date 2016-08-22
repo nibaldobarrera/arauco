@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+    version="3.0"
+    type="plugin"
+    group="content"
+    method="upgrade">
+    <name>Content - Click To Call</name>
+    <author>Nibaldo Barrera</author>
+    <creationDate>Agosto 2016</creationDate>
+    <copyright>Copyright (C) 2016 KaZeta. All rights
+reserved.</copyright>
+    <license> http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>example@packtpub.com</authorEmail>
+    <authorUrl>http://www.kazeta.cl</authorUrl>
+    <version>1.1.0</version>
+    <description>Este plugin reemplazará un número telefónico con un enlace click to 
+call. Requiere Joomla! 3.0 o superior. No olvide publicar este plugin!
+        </description>
+    <files>
+        <filename plugin="clicktocall">clicktocall.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+    <fields name="params">
+        <fieldset name="basic">
+            <field name="phoneDigits1" type="text"
+                default="4"
+                label="Digits 1"
+                description="¿Cuantos dígitos en la primera parte del número de fono?"/>
+            <field name="phoneDigits2" type="text"
+                default="4"
+                label="Digits 2"
+                description="¿Cuantos dígitos en la segunda parte del número de fono?"/>
+        </fieldset>
+    </fields>
+    </config>
+</extension>
